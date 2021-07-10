@@ -16,6 +16,4 @@ You should see `(venv)` at the beginning of your terminal prompt. Then install t
 
 `pip install -r requirements.txt`
 
-With the requirements installed, you can run the code by simply calling python and the respective file. E.g.
-
-`python no-overlap.py`
+With the requirements installed, you can run the code by first deciding on whether you want to run a statevector or qasm simulation and running the respective `run.py` file. Each `run.py` has a selection of circuits you can comment/uncomment.
